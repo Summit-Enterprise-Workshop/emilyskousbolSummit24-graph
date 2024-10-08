@@ -55,7 +55,7 @@ input OrderFilters {
 }
 
 """
-An user's saved cart session. Only one cart can be active at a time
+An user's saved cart session. Only one cart can be active at a time.
 """
 type Cart @key(fields: "owner { id }") {
   """
